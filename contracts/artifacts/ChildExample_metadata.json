@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.15+commit.e14f2714"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "payment",
+				"outputs": [
+					{
+						"internalType": "contract PaymentReceived",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "pyContract",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ChildExample.sol": "ChildExample"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ChildExample.sol": {
+			"keccak256": "0x9796ffe917957a190bb988945cfaed688bca9e8779ccdfe05233a4b98bd1471b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a6255682694c3317ca3f4808ae8578090ddc2a05928ac0abe843fc3ffd2df57a",
+				"dweb:/ipfs/QmSmzvP9U6B7pvSsypLQiiuWZR8W9ZJo7Q9YnPXoEPpQVP"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.15+commit.e14f2714"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "deposit",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Project/section3Project.sol": "Consumer"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Project/section3Project.sol": {
+			"keccak256": "0x7261ba003f3173ab2954f626f8bf4439a96df12de46559315f5ff28c8701ecbd",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7e7bf92c536be05a0d6d42d447a2be144501dac018f73269291ba7e51b938e32",
+				"dweb:/ipfs/QmdTMPZWZobZzdbfQU5kXnj3Looagni4oEpdNwirkWadQx"
+			]
+		}
+	},
+	"version": 1
+}
